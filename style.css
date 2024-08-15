@@ -13,25 +13,26 @@
     margin: 0px;
     padding: 0px;
     font-family: 'fontsemserif';
+    font-weight: 600;
 }
 body{
-    background-color: rgb(36, 36, 36);
+    background-image: linear-gradient(to right, rgb(92, 89, 89), rgb(175, 175, 175)) ;
     
 }
 
 header{
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(94, 94, 92);
     height: 50px;
-    border: 4px solid rgba(85, 84, 84, 0.562);
+    border: 4px solid rgba(68, 68, 68, 0.562);
       
      
 }
 
 header > h1{
     text-align: center;
-    color: #D2D904;
+    color: #e5ec09;
     padding-top: 8px;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.377);    
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.432);    
     
 }
 
@@ -64,11 +65,13 @@ nav#icon2 > img{
 }
 
 main{
-    background-color: rgb(43, 43, 43);
+    background-image:linear-gradient(rgb(83, 83, 83), rgb(49, 46, 46)) ;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1220px;
     margin: auto;
     height: 100%;
+    box-shadow: 0px 1px 7px 0px #00000052;
+    
    
      
 }
@@ -79,15 +82,20 @@ main > h1{
 .carros > img{
     width: 100%;
     height: 100%;
+    border-radius: 12px 12px 0px 0px;
 }
 section.carros > p{
     display: inline-block;
     padding: 10px;
+    
 }
 section.carros{
-    width: 25vw;
+    max-width: 80vw;
     display: inline-block;
     margin: 10px;
+    box-shadow: 0px 1px 7px 0px #00000052;
+     
+    border-radius: 12px ;
 }
 
 
@@ -96,7 +104,7 @@ footer{
     height: 50px;
     margin: auto;
     min-width: 0px;
-    max-width: 1240px;   
+    max-width: 1264px;
     
 }
 footer > p {
